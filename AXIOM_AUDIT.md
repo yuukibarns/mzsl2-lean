@@ -43,9 +43,10 @@ original Corollary 2, and the real version used in the proof is derived in Lean.
 * **Margulis primary text.** I read Calderoni's statement of Margulis' theorem (J. Lond. Math.
   Soc. 107 (2023), Thm 4.14), not the book. Crossref confirms that the book's Chapter VIII,
   pp. 258–287, is *Normal subgroups and "abstract" homomorphisms of semisimple algebraic groups
-  over global fields*, matching the citation "Ch. VIII, Thm A". The SpringerLink copy
-  (https://link.springer.com/book/9783642057212) needs a subscription, so reading Theorem A itself
-  needs a subscribing institution or a print copy.
+  over global fields*, matching the citation "Ch. VIII, Thm A". Relying on this published
+  restatement was a deliberate decision (2026-10-16): the theorem is classical, and Calderoni
+  states it with full hypotheses in a refereed journal. The book is
+  https://link.springer.com/book/9783642057212 (subscription).
 * **Cochain conventions.** CW use homogeneous invariant cochains. Lean uses the equivalent
   inhomogeneous form; the translation is the standard one recorded in row 6.
 * `scale_pow` and `scale_eq_one_iff` are stated for every tdlc group in every universe. That

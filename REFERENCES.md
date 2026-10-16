@@ -23,9 +23,10 @@ which text was actually compared with the Lean statement (see `AXIOM_AUDIT.md`).
 | `casselman_wigner` | Cor. 2 | W. Casselman, D. Wigner, *Continuous cohomology and a conjecture of Serre's*, Invent. Math. **25** (1974), 199–211. [doi:10.1007/BF01389727](https://doi.org/10.1007/BF01389727) | [hdl:2027.42/46596](https://hdl.handle.net/2027.42/46596) (University of Michigan Deep Blue) | original (§4, Cor. 2, p. 209) |
 | (statement used) | Thm 2.12 (arXiv: Thm 2.25) | D. Fisher, M. Mj, W. van Limbeek, *Commensurators of normal subgroups of lattices*, J. Éc. polytech. Math. **11** (2024), 1099–1122. [doi:10.5802/jep.274](https://doi.org/10.5802/jep.274) | open access (CC BY) at the DOI; [arXiv:2202.04027](https://arxiv.org/abs/2202.04027) | published version and arXiv v3 |
 
-## Not yet read in the original
+## Checked through a restatement
 
-One of the twelve sources was checked through a faithful restatement rather than the original:
-
-* Margulis' book, Ch. VIII, Thm A (via Calderoni, Thm 4.14). SpringerLink access needs a
-  subscription, so this needs a subscribing institution or a print copy.
+Eleven of the twelve sources were read in the original. For Margulis' normal subgroup theorem
+(book, Ch. VIII, Thm A) we rely on the statement with full hypotheses in a refereed article:
+Calderoni, J. Lond. Math. Soc. **107** (2023), Thm 4.14. This was a deliberate choice, because the
+theorem is classical and the restatement is published. The book is held by the Tsinghua
+mathematics library (call number O152.5 FM33) for anyone who wants to compare.
