@@ -3,6 +3,7 @@
 The formal proof assumes eight published theorems, stated in `MzSl2/Axioms.lean`. This file gives,
 for each one, the exact place in the literature, the DOI, and a legal free copy where one exists.
 The PDFs are not copied into this repository because most of them are under publisher copyright.
+Where a licence permits it, an image of the theorem statement is in [`excerpts/`](excerpts/README.md).
 
 All DOIs were checked against Crossref and all arXiv identifiers against the arXiv API
 (2026-10-16). Open-access copies were located with OpenAlex. The "Read for the audit" column says
