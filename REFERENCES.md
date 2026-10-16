@@ -13,7 +13,7 @@ which text was actually compared with the Lean statement (see `AXIOM_AUDIT.md`).
 | `bounded_generation` | Thm 1.1 | A. V. Morgan, A. S. Rapinchuk, B. Sury, *Bounded generation of SL₂ over rings of S-integers with infinitely many units*, Algebra Number Theory **12** (2018), 1949–1974. [doi:10.2140/ant.2018.12.1949](https://doi.org/10.2140/ant.2018.12.1949) | [arXiv:1708.09262](https://arxiv.org/abs/1708.09262) | arXiv v3 |
 | (same, ℤ[1/p] case) | main theorem | M. Vsemirnov, *Short unitriangular factorizations of SL₂(ℤ[1/p])*, Q. J. Math. **65** (2014), 279–290. [doi:10.1093/qmath/has044](https://doi.org/10.1093/qmath/has044) | none known | — (cited for priority only) |
 | `bergman_lenstra` | Thm 6(iii) (Thm 5(iii) in the preprint) | G. M. Bergman, H. W. Lenstra, Jr., *Subgroups close to normal subgroups*, J. Algebra **127** (1989), 80–97. [doi:10.1016/0021-8693(89)90275-5](https://doi.org/10.1016/0021-8693(89)90275-5) | free to read at the DOI (Elsevier open archive); preprint listed at [hdl:1887/3827](https://hdl.handle.net/1887/3827) (Leiden; not opened) | author preprint |
-| `normal_subgroup_theorem` | Ch. VIII (*Normal subgroups and "abstract" homomorphisms of semisimple algebraic groups over global fields*, pp. 258–287), Thm A | G. A. Margulis, *Discrete Subgroups of Semisimple Lie Groups*, Ergeb. Math. Grenzgeb. (3) **17**, Springer, 1991. DOI 10.1007/978-3-642-51445-6; ISBN 978-3-642-05721-2 (print). The SpringerLink page for this DOI was unavailable on 2026-10-16. | none (book; use a library copy) | statement as quoted in Calderoni, Thm 4.14 |
+| `normal_subgroup_theorem` | Ch. VIII (*Normal subgroups and "abstract" homomorphisms of semisimple algebraic groups over global fields*, pp. 258–287), Thm A | G. A. Margulis, *Discrete Subgroups of Semisimple Lie Groups*, Ergeb. Math. Grenzgeb. (3) **17**, Springer, 1991. DOI 10.1007/978-3-642-51445-6; ISBN 978-3-642-05721-2 (print). [SpringerLink](https://link.springer.com/book/9783642057212) (subscription; the DOI's own redirect is broken). | none (book; use a library copy) | statement as quoted in Calderoni, Thm 4.14 |
 | (statement used) | Thm 4.14 | F. Calderoni, *Rotation equivalence and cocycle superrigidity*, J. Lond. Math. Soc. **107** (2023), 189–212. [doi:10.1112/jlms.12684](https://doi.org/10.1112/jlms.12684) | open access (CC BY-NC-ND) at the DOI; [arXiv:2203.05135](https://arxiv.org/abs/2203.05135) | arXiv v2 |
 | `scale_pow`, `scale_eq_one_iff` | as summarized in Shalom–Willis, Thm 2.2(1),(2) | G. A. Willis, *The structure of totally disconnected, locally compact groups*, Math. Ann. **300** (1994), 341–363. [doi:10.1007/BF01450491](https://doi.org/10.1007/BF01450491) | none known | original (§2, Cor. 3 and p. 354), and Shalom–Willis |
 | (statement used) | Def 2.1, Thm 2.2 | Y. Shalom, G. A. Willis, *Commensurated subgroups of arithmetic groups, totally disconnected groups and adelic rigidity*, Geom. Funct. Anal. **23** (2013), 1631–1683. [doi:10.1007/s00039-013-0236-5](https://doi.org/10.1007/s00039-013-0236-5) | [arXiv:0911.1966](https://arxiv.org/abs/0911.1966) | arXiv v1 |
@@ -27,7 +27,7 @@ which text was actually compared with the Lean statement (see `AXIOM_AUDIT.md`).
 
 Two of the eleven sources were checked through a faithful restatement rather than the original:
 
-* Margulis' book, Ch. VIII, Thm A (via Calderoni, Thm 4.14). The SpringerLink page is currently
-  unavailable, so this needs a library copy.
+* Margulis' book, Ch. VIII, Thm A (via Calderoni, Thm 4.14). SpringerLink access needs a
+  subscription, so this needs a subscribing institution or a print copy.
 * Willis 2001, Thm 3.1 (via Shalom–Willis and Baumgartner–Willis), used only for the equality of
   the two definitions of the scale. It is free to read at the DOI above.

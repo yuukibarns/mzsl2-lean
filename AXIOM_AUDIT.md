@@ -43,8 +43,9 @@ original Corollary 2, and the real version used in the proof is derived in Lean.
 * **Margulis primary text.** I read Calderoni's statement of Margulis' theorem (J. Lond. Math.
   Soc. 107 (2023), Thm 4.14), not the book. Crossref confirms that the book's Chapter VIII,
   pp. 258–287, is *Normal subgroups and "abstract" homomorphisms of semisimple algebraic groups
-  over global fields*, matching the citation "Ch. VIII, Thm A". The SpringerLink copy is
-  currently unavailable, so reading Theorem A itself needs a library copy.
+  over global fields*, matching the citation "Ch. VIII, Thm A". The SpringerLink copy
+  (https://link.springer.com/book/9783642057212) needs a subscription, so reading Theorem A itself
+  needs a subscribing institution or a print copy.
 * **Willis 2001.** The equality of the tidy-subgroup definition of the scale with the min formula
   is taken from its statements in Shalom–Willis and Baumgartner–Willis.
 * **Cochain conventions.** CW use homogeneous invariant cochains. Lean uses the equivalent
