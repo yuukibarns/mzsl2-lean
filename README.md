@@ -24,7 +24,8 @@ with `lake env lean`.
 
 Each one is a published theorem. `Axioms.lean` states it in the narrowest form the proof needs.
 All 8 were audited against the source texts on 2026-10-16: each is faithful (the published
-statement or a weakening of it). See [`AXIOM_AUDIT.md`](AXIOM_AUDIT.md).
+statement or a weakening of it). See [`AXIOM_AUDIT.md`](AXIOM_AUDIT.md), and
+[`REFERENCES.md`](REFERENCES.md) for DOIs and free copies of every source.
 
 | Axiom | Statement (case used) | Source | Checked against |
 |---|---|---|---|
