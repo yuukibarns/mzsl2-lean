@@ -22,7 +22,7 @@ Lean's `propext`, `Classical.choice`, `Quot.sound`).
    compact groups*, Math. Ann. 300 (1994), §2: Corollary 3 (`s(xⁿ) = s(x)ⁿ`), and the identities
    `s(x) = [xUx⁻¹ : U ∩ xUx⁻¹]`, `s(x⁻¹) = [U : U ∩ xUx⁻¹]` for `U` tidy (p. 354). Willis defines
    `s` via tidy subgroups; that it equals the minimum used here is Willis, J. Algebra 237 (2001),
-   Thm 3.1, as stated in Shalom–Willis, GAFA 23 (2013), Def. 2.1 and Thm 2.2(1),(2).
+   Thm 3.1. Summarized in Shalom–Willis, GAFA 23 (2013), Def. 2.1 and Thm 2.2(1),(2).
 5. `levi_isClosed`, `tidy_levi`: U. Baumgartner, G. Willis, *Contraction groups and scales of
    automorphisms of totally disconnected locally compact groups*, Israel J. Math. 142 (2004),
    §3 (metrizable case): `M_g = P_g ∩ P_{g⁻¹}` is closed (Remark 3.1, via Willis 1994 Prop. 3),
