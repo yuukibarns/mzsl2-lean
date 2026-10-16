@@ -17,6 +17,7 @@ which text was actually compared with the Lean statement (see `AXIOM_AUDIT.md`).
 | (statement used) | Thm 4.14 | F. Calderoni, *Rotation equivalence and cocycle superrigidity*, J. Lond. Math. Soc. **107** (2023), 189–212. [doi:10.1112/jlms.12684](https://doi.org/10.1112/jlms.12684) | open access (CC BY-NC-ND) at the DOI; [arXiv:2203.05135](https://arxiv.org/abs/2203.05135) | arXiv v2 |
 | `scale_pow`, `scale_eq_one_iff` | as summarized in Shalom–Willis, Thm 2.2(1),(2) | G. A. Willis, *The structure of totally disconnected, locally compact groups*, Math. Ann. **300** (1994), 341–363. [doi:10.1007/BF01450491](https://doi.org/10.1007/BF01450491) | none known | original (§2, Cor. 3 and p. 354), and Shalom–Willis |
 | (statement used) | Def 2.1, Thm 2.2 | Y. Shalom, G. A. Willis, *Commensurated subgroups of arithmetic groups, totally disconnected groups and adelic rigidity*, Geom. Funct. Anal. **23** (2013), 1631–1683. [doi:10.1007/s00039-013-0236-5](https://doi.org/10.1007/s00039-013-0236-5) | [arXiv:0911.1966](https://arxiv.org/abs/0911.1966) | arXiv v1 |
+| (equality of definitions) | Thm 3.1 | G. A. Willis, *Further properties of the scale function on a totally disconnected group*, J. Algebra **237** (2001), 142–164. [doi:10.1006/jabr.2000.8584](https://doi.org/10.1006/jabr.2000.8584) | free to read at the DOI (Elsevier open archive) | statement as quoted in Shalom–Willis and Baumgartner–Willis |
 | `levi_isClosed`, `tidy_levi` | §2, Remark 3.1, Notation 3.2 | U. Baumgartner, G. A. Willis, *Contraction groups and scales of automorphisms of totally disconnected locally compact groups*, Israel J. Math. **142** (2004), 221–248. [doi:10.1007/BF02771534](https://doi.org/10.1007/BF02771534) | [arXiv:math/0302095](https://arxiv.org/abs/math/0302095) | arXiv v2 |
 | (wording of `M_g`) | Def. 3, p. 330 | H. Glöckner, *Contraction groups for tidy automorphisms of totally disconnected groups*, Glasg. Math. J. **47** (2005), 329–333. [doi:10.1017/S0017089505002557](https://doi.org/10.1017/S0017089505002557) | free at the DOI; [arXiv:math/0409043](https://arxiv.org/abs/math/0409043) | published version |
 | `casselman_wigner` | Cor. 2 | W. Casselman, D. Wigner, *Continuous cohomology and a conjecture of Serre's*, Invent. Math. **25** (1974), 199–211. [doi:10.1007/BF01389727](https://doi.org/10.1007/BF01389727) | [hdl:2027.42/46596](https://hdl.handle.net/2027.42/46596) (University of Michigan Deep Blue) | original (§4, Cor. 2, p. 209) |
@@ -28,6 +29,5 @@ Two of the eleven sources were checked through a faithful restatement rather tha
 
 * Margulis' book, Ch. VIII, Thm A (via Calderoni, Thm 4.14). The SpringerLink page is currently
   unavailable, so this needs a library copy.
-* Willis, *Further properties of the scale function on a totally disconnected group*, J. Algebra
-  **237** (2001), Thm 3.1 (via Shalom–Willis and Baumgartner–Willis). It is used only for the
-  equality of the two definitions of the scale.
+* Willis 2001, Thm 3.1 (via Shalom–Willis and Baumgartner–Willis), used only for the equality of
+  the two definitions of the scale. It is free to read at the DOI above.
