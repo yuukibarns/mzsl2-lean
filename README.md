@@ -29,7 +29,7 @@ statement or a weakening of it). See [`AXIOM_AUDIT.md`](AXIOM_AUDIT.md).
 | Axiom | Statement (case used) | Source | Checked against |
 |---|---|---|---|
 | `bounded_generation` | every element of SL₂(ℤ[1/p]) is a product of ≤ 9 elementary matrices | Vsemirnov, Q. J. Math. 65 (2014); Morgan–Rapinchuk–Sury, Algebra Number Theory 12 (2018) | MRS Thm 1.1 |
-| `bergman_lenstra` | uniformly bounded indices $[A : A\cap bAb^{-1}]$, $b\in B$ ⇒ $A$ commensurable with a $B$-normalised subgroup | Bergman–Lenstra, J. Algebra 127 (1989) | Theorem 5(iii) |
+| `bergman_lenstra` | uniformly bounded indices $[A : A\cap bAb^{-1}]$, $b\in B$ ⇒ $A$ commensurable with a $B$-normalised subgroup | Bergman–Lenstra, J. Algebra 127 (1989) | Theorem 6(iii) (5(iii) in the preprint) |
 | `normal_subgroup_theorem` | normal subgroups of SL₂(ℤ[1/p]) are finite or of finite index | Margulis, *Discrete subgroups of semisimple Lie groups* (1991), Ch. VIII Thm A | Calderoni (arXiv 2203.05135) Thm 4.14 |
 | `scale_pow`, `scale_eq_one_iff` | $s(h^n)=s(h)^n$; $s(h)=s(h^{-1})=1$ ⇔ $h$ normalises a compact open subgroup | Willis, Math. Ann. 300 (1994) | Shalom–Willis, GAFA 23 (2013), Thm 2.2 |
 | `levi_isClosed`, `tidy_levi` | (metrizable case) $M_g$ is closed; for a tidy $V$, $V\cap M_g\subseteq\bigcap_n g^nVg^{-n}$ | Baumgartner–Willis, Israel J. Math. 142 (2004), §3 | Rem. 3.1 / Not. 3.2 |

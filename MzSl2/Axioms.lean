@@ -14,7 +14,7 @@ Lean's `propext`, `Classical.choice`, `Quot.sound`).
    rings of S-integers with infinitely many units*, Algebra Number Theory 12 (2018), Thm 1.1:
    every element of `SL₂(ℤ[1/p])` is a product of at most 9 elementary matrices.
 2. `bergman_lenstra`: G. Bergman, H. Lenstra, *Subgroups close to normal subgroups*,
-   J. Algebra 127 (1989), Theorem 5(iii) (checked against the text on file).
+   J. Algebra 127 (1989), Theorem 6(iii) (Theorem 5(iii) in the author preprint on file).
 3. `normal_subgroup_theorem`: G. Margulis, *Discrete subgroups of semisimple Lie groups* (1991),
    Ch. VIII Thm A (S-arithmetic form, S-rank 2), for `SL₂(ℤ[1/p])`: normal subgroups are
    central (hence finite) or of finite index.
