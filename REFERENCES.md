@@ -15,21 +15,19 @@ which text was actually compared with the Lean statement (see `AXIOM_AUDIT.md`).
 | `bergman_lenstra` | Thm 6(iii) (Thm 5(iii) in the preprint) | G. M. Bergman, H. W. Lenstra, Jr., *Subgroups close to normal subgroups*, J. Algebra **127** (1989), 80–97. [doi:10.1016/0021-8693(89)90275-5](https://doi.org/10.1016/0021-8693(89)90275-5) | free to read at the DOI (Elsevier open archive); preprint listed at [hdl:1887/3827](https://hdl.handle.net/1887/3827) (Leiden; not opened) | author preprint |
 | `normal_subgroup_theorem` | Ch. VIII (*Normal subgroups and "abstract" homomorphisms of semisimple algebraic groups over global fields*, pp. 258–287), Thm A | G. A. Margulis, *Discrete Subgroups of Semisimple Lie Groups*, Ergeb. Math. Grenzgeb. (3) **17**, Springer, 1991. DOI 10.1007/978-3-642-51445-6; ISBN 978-3-642-05721-2 (print). The SpringerLink page for this DOI was unavailable on 2026-10-16. | none (book; use a library copy) | statement as quoted in Calderoni, Thm 4.14 |
 | (statement used) | Thm 4.14 | F. Calderoni, *Rotation equivalence and cocycle superrigidity*, J. Lond. Math. Soc. **107** (2023), 189–212. [doi:10.1112/jlms.12684](https://doi.org/10.1112/jlms.12684) | open access (CC BY-NC-ND) at the DOI; [arXiv:2203.05135](https://arxiv.org/abs/2203.05135) | arXiv v2 |
-| `scale_pow`, `scale_eq_one_iff` | as summarized in Shalom–Willis, Thm 2.2(1),(2) | G. A. Willis, *The structure of totally disconnected, locally compact groups*, Math. Ann. **300** (1994), 341–363. [doi:10.1007/BF01450491](https://doi.org/10.1007/BF01450491) | none known | statement as quoted in Shalom–Willis |
+| `scale_pow`, `scale_eq_one_iff` | as summarized in Shalom–Willis, Thm 2.2(1),(2) | G. A. Willis, *The structure of totally disconnected, locally compact groups*, Math. Ann. **300** (1994), 341–363. [doi:10.1007/BF01450491](https://doi.org/10.1007/BF01450491) | none known | original (§2, Cor. 3 and p. 354), and Shalom–Willis |
 | (statement used) | Def 2.1, Thm 2.2 | Y. Shalom, G. A. Willis, *Commensurated subgroups of arithmetic groups, totally disconnected groups and adelic rigidity*, Geom. Funct. Anal. **23** (2013), 1631–1683. [doi:10.1007/s00039-013-0236-5](https://doi.org/10.1007/s00039-013-0236-5) | [arXiv:0911.1966](https://arxiv.org/abs/0911.1966) | arXiv v1 |
 | `levi_isClosed`, `tidy_levi` | §2, Remark 3.1, Notation 3.2 | U. Baumgartner, G. A. Willis, *Contraction groups and scales of automorphisms of totally disconnected locally compact groups*, Israel J. Math. **142** (2004), 221–248. [doi:10.1007/BF02771534](https://doi.org/10.1007/BF02771534) | [arXiv:math/0302095](https://arxiv.org/abs/math/0302095) | arXiv v2 |
 | (wording of `M_g`) | Def. 3, p. 330 | H. Glöckner, *Contraction groups for tidy automorphisms of totally disconnected groups*, Glasg. Math. J. **47** (2005), 329–333. [doi:10.1017/S0017089505002557](https://doi.org/10.1017/S0017089505002557) | free at the DOI; [arXiv:math/0409043](https://arxiv.org/abs/math/0409043) | published version |
-| `casselman_wigner` | Cor. 2 | W. Casselman, D. Wigner, *Continuous cohomology and a conjecture of Serre's*, Invent. Math. **25** (1974), 199–211. [doi:10.1007/BF01389727](https://doi.org/10.1007/BF01389727) | [hdl:2027.42/46596](https://hdl.handle.net/2027.42/46596) (University of Michigan Deep Blue) | statement as quoted in FMvL |
+| `casselman_wigner` | Cor. 2 | W. Casselman, D. Wigner, *Continuous cohomology and a conjecture of Serre's*, Invent. Math. **25** (1974), 199–211. [doi:10.1007/BF01389727](https://doi.org/10.1007/BF01389727) | [hdl:2027.42/46596](https://hdl.handle.net/2027.42/46596) (University of Michigan Deep Blue) | original (§4, Cor. 2, p. 209) |
 | (statement used) | Thm 2.12 (arXiv: Thm 2.25) | D. Fisher, M. Mj, W. van Limbeek, *Commensurators of normal subgroups of lattices*, J. Éc. polytech. Math. **11** (2024), 1099–1122. [doi:10.5802/jep.274](https://doi.org/10.5802/jep.274) | open access (CC BY) at the DOI; [arXiv:2202.04027](https://arxiv.org/abs/2202.04027) | published version and arXiv v3 |
 
 ## Not yet read in the original
 
-The audit compared three axioms with a faithful restatement in a later refereed paper rather
-than with the original text:
+Two of the eleven sources were checked through a faithful restatement rather than the original:
 
-* `normal_subgroup_theorem`: Margulis' book, Ch. VIII (library copy needed; the online
-  SpringerLink page is currently unavailable).
-* `scale_pow`, `scale_eq_one_iff`: Willis 1994 (library access needed).
-* `casselman_wigner`: the original is freely available at the Deep Blue link above.
-
-Reading these three originals would complete the audit.
+* Margulis' book, Ch. VIII, Thm A (via Calderoni, Thm 4.14). The SpringerLink page is currently
+  unavailable, so this needs a library copy.
+* Willis, *Further properties of the scale function on a totally disconnected group*, J. Algebra
+  **237** (2001), Thm 3.1 (via Shalom–Willis and Baumgartner–Willis). It is used only for the
+  equality of the two definitions of the scale.

@@ -19,17 +19,21 @@ Lean's `propext`, `Classical.choice`, `Quot.sound`).
    Ch. VIII Thm A (S-arithmetic form, S-rank 2), for `SL₂(ℤ[1/p])`: normal subgroups are
    central (hence finite) or of finite index.
 4. `scale_pow`, `scale_eq_one_iff`: G. Willis, *The structure of totally disconnected, locally
-   compact groups*, Math. Ann. 300 (1994); as quoted in Shalom–Willis, GAFA 23 (2013), Thm 2.2.
+   compact groups*, Math. Ann. 300 (1994), §2: Corollary 3 (`s(xⁿ) = s(x)ⁿ`), and the identities
+   `s(x) = [xUx⁻¹ : U ∩ xUx⁻¹]`, `s(x⁻¹) = [U : U ∩ xUx⁻¹]` for `U` tidy (p. 354). Willis defines
+   `s` via tidy subgroups; that it equals the minimum used here is Willis, J. Algebra 237 (2001),
+   Thm 3.1, as stated in Shalom–Willis, GAFA 23 (2013), Def. 2.1 and Thm 2.2(1),(2).
 5. `levi_isClosed`, `tidy_levi`: U. Baumgartner, G. Willis, *Contraction groups and scales of
    automorphisms of totally disconnected locally compact groups*, Israel J. Math. 142 (2004),
    §3 (metrizable case): `M_g = P_g ∩ P_{g⁻¹}` is closed (Remark 3.1, via Willis 1994 Prop. 3),
    and for a tidy `V` (which exists, Willis 1994), `V ∩ M_g = V₀ = ⋂ₙ gⁿ V g⁻ⁿ` (Remark 3.1 and
    the remarks after Notation 3.2).
 6. `casselman_wigner`: W. Casselman, D. Wigner, *Continuous cohomology and a conjecture of
-   Serre's*, Invent. Math. 25 (1974), Cor. 2 (as quoted in Fisher–Mj–van Limbeek, J. Éc.
-   polytech. 11 (2024), Thm 2.12): the `ℚ_p`-points of a connected semisimple group have vanishing
-   continuous cohomology with `ℂ`-coefficients in positive degrees. Stated here in degree 2 for
-   `SL₂(ℚ_p)`: every continuous complex 2-cocycle is the coboundary of a continuous 1-cochain.
+   Serre's*, Invent. Math. 25 (1974), §4, Corollary 2 (p. 209): for `G` the rational points of a
+   simple, simply connected, isotropic group over `ℚ_p`, `Hⁿ(G, ℂ) = 0` for `n ≠ 0`. There `Hⁿ`
+   is the cohomology of `G`-invariant continuous homogeneous cochains `G^{n+1} → ℂ` (§1, p. 200);
+   in degree 2 this is equivalent to the inhomogeneous form below. Stated here for `SL₂(ℚ_p)`:
+   every continuous complex 2-cocycle is the coboundary of a continuous 1-cochain.
    The real version `casselman_wigner_real` is derived below by taking real parts.
 -/
 
